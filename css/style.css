@@ -2,8 +2,44 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    border: 1px solid rgba(100%, 0%, 0%, 0.4);
 }
+    /* Reset */
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+    /* clearfix */
+
 
 body {
+
     font-family: 'Nunito', sans-serif;
+}
+
+
+h1 {
+    color: #e53170;
+    font-weight: 900;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 70%;
+
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row .column {
+    width: calc(100% / 3);
+
+    float: left;
 }
