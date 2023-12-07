@@ -29,6 +29,9 @@ h1 {
     margin-bottom: 1em;
 }
 
+p {
+    padding-bottom: 50px;
+}
 .container {
     width: 70%;
 
@@ -43,3 +46,22 @@ h1 {
 
     float: left;
 }
+
+.row {
+    color: white;
+}
+
+.row .column img{
+    height: 120px;
+}
+
+.img{
+    float: left;
+}
+
+.column {
+    text-align: left;
+
+    background-color: #0f0e17;
+}
+
